@@ -1,0 +1,73 @@
+
+body {
+    min-height: 100vh; 
+}
+.navbar-brand {
+    font-weight: 500;
+} 
+
+.navbar {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.473);
+}
+
+.form-inline .search,
+.form-inline .search1 {
+    border: 1px solid rgb(231, 193, 98);
+}
+
+.search:hover {
+    background: rgb(231, 193, 98);
+    color: #fff;
+}
+
+.jumbotron {
+    background: rgb(231, 193, 98);
+    color: white;
+    padding-bottom: 30px;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+}
+
+.jumbotron h1 {
+    color: rgb(122, 105, 61);
+    text-shadow: .5px .5px 1px #fff;
+    font-weight: 500;
+}
+
+.lead {
+    text-shadow: .2px .2px .4px #000;
+}
+
+h3,
+.card-title,
+.modal-title {
+    color: rgb(97, 67, 7);
+}
+
+.row {
+    flex: 1;
+}
+
+a {
+    cursor: pointer;
+}
+
+.form-row .labell {
+    padding-left: 0;
+}
+
+footer {
+    background: rgba(141, 98, 17, 0.836);
+    height: 60px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.flex-grow {
+   flex: 1;
+}
